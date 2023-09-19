@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Collection</OriginalElement>
+  <nodes>
+    <node x="30.0" y="88.0">java.util.ArrayList</node>
+    <node x="-254.50000000000006" y="-170.0">java.lang.Iterable</node>
+    <node x="-628.0" y="134.0">java.util.HashSet</node>
+    <node x="-404.00000000000006" y="134.0">java.util.TreeSet</node>
+    <node x="-263.0000000000001" y="-92.0">java.util.Collection</node>
+    <node x="-462.2500000000001" y="-2.0">java.util.Set</node>
+    <node x="119.5" y="-2.0">java.util.List</node>
+    <node x="397.0" y="111.0">java.util.Vector</node>
+    <node x="-165.00000000000006" y="122.5">java.util.LinkedList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.HashSet" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="-526.0" y="57.0" />
+      <point x="-557.25" y="57.0" />
+      <point x="-557.25" y="-33.0" />
+      <point x="-77.5" y="-33.0" />
+      <point x="-77.5" y="-43.0" />
+      <point x="-147.5000000000001" y="-43.0" />
+      <point x="38.5" y="14.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="484.5" y="-33.0" />
+      <point x="-77.5" y="-33.0" />
+      <point x="-77.5" y="-43.0" />
+      <point x="-147.5000000000001" y="-43.0" />
+      <point x="38.5" y="14.0" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable" relationship="INTERFACE_GENERALIZATION">
+      <point x="2.8421709430404007E-14" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-410.2500000000001" y="-23.0" />
+      <point x="-407.99324324324334" y="-23.0" />
+      <point x="-407.99324324324334" y="-43.0" />
+      <point x="-224.5000000000001" y="-43.0" />
+      <point x="-38.5" y="14.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.Collection" relationship="REALIZATION">
+      <point x="-5.6843418860808015E-14" y="-50.0" />
+      <point x="-294.5000000000001" y="67.0" />
+      <point x="-263.2500000000001" y="67.0" />
+      <point x="-263.2500000000001" y="-33.0" />
+      <point x="-77.5" y="-33.0" />
+      <point x="-77.5" y="-43.0" />
+      <point x="-147.5000000000001" y="-43.0" />
+      <point x="38.5" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.List" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="-77.5" y="67.0" />
+      <point x="172.0" y="67.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="-526.0" y="67.0" />
+      <point x="-410.2500000000001" y="67.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-96.0" />
+      <point x="203.5" y="67.0" />
+      <point x="235.0" y="67.0" />
+      <point x="235.0" y="-33.0" />
+      <point x="-77.5" y="-33.0" />
+      <point x="-77.5" y="-43.0" />
+      <point x="-147.5000000000001" y="-43.0" />
+      <point x="38.5" y="14.0" />
+    </edge>
+    <edge source="java.util.List" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="172.0" y="-23.0" />
+      <point x="-407.9932432432434" y="-23.0" />
+      <point x="-407.99324324324334" y="-43.0" />
+      <point x="-224.5000000000001" y="-43.0" />
+      <point x="-38.5" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="-77.5" y="-43.0" />
+      <point x="-147.5000000000001" y="-43.0" />
+      <point x="38.5" y="14.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.List" relationship="REALIZATION">
+      <point x="0.0" y="-96.0" />
+      <point x="203.5" y="57.0" />
+      <point x="172.0" y="57.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.List" relationship="REALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="484.5" y="47.0" />
+      <point x="172.0" y="47.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="-5.6843418860808015E-14" y="-50.0" />
+      <point x="-294.5000000000001" y="57.0" />
+      <point x="-410.2500000000001" y="57.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="false" x="-28.0" y="55.0" />
+  <SelectedNodes>
+    <node>java.util.HashSet</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>字段</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

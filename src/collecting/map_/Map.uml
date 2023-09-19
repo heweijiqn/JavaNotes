@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Map</OriginalElement>
+  <nodes>
+    <node x="-109.0" y="49.0">java.util.Hashtable</node>
+    <node x="448.0" y="172.16666666666663">java.util.LinkedHashMap</node>
+    <node x="118.0" y="-14.0">java.util.Map</node>
+    <node x="-10.833333333333343" y="218.16666666666669">java.util.Properties</node>
+    <node x="100.0" y="49.0">java.util.HashMap</node>
+    <node x="308.5" y="49.0">java.util.TreeMap</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.TreeMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="-0.0" y="-14.0" />
+      <point x="391.5" y="0.0" />
+      <point x="66.5" y="-0.0" />
+    </edge>
+    <edge source="java.util.Properties" target="java.util.Hashtable" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="52.16666666666666" y="88.25" />
+      <point x="-22.5" y="88.25" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Hashtable" target="java.util.Map" relationship="REALIZATION">
+      <point x="-0.0" y="-14.0" />
+      <point x="-22.5" y="0.0" />
+      <point x="-66.5" y="-0.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.HashMap" relationship="GENERALIZATION">
+      <point x="-108.5" y="-0.0" />
+      <point x="184.5" y="186.16666666666663" />
+      <point x="-0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="-0.0" y="-14.0" />
+      <point x="556.5" y="-31.5" />
+      <point x="184.5" y="-31.5" />
+      <point x="-0.0" y="-14.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.5" showDependencies="false" x="413.5" y="63.0" />
+  <SelectedNodes>
+    <node>java.util.LinkedHashMap</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
